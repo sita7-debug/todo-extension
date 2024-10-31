@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Check List for Chrome",
+  "version": "0.1.0",
+  "description": "A simple check list extension.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icons": {
+      "16": "todo_icon_16x16.png",
+      "48": "todo_icon_48x48.png",
+      "128": "todo_icon_128x128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+      "16": "todo_icon_16x16.png",
+      "48": "todo_icon_48x48.png",
+      "128": "todo_icon_128x128.png"
+  }
+}
